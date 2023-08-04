@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "minceraft",
+  "version": "${version}",
+
+  "name": "Minceraft",
+  "description": "Always show Minceraft for the title",
+  "authors": ["Tigercrl"],
+  "contact": {},
+
+  "license": "GNU GPL 3.0",
+  "icon": "icon.png",
+
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    "minceraft.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": ">=1.20"
+  }
+}
